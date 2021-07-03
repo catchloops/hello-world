@@ -15,12 +15,14 @@ class Config:
     """Set Flask configuration vars from .env file."""
 
     #General config
+    WHEREAMI  = environ.get('WHEREAMI')
     FLASK_APP  = environ.get('FLASK_APP')
     FLASK_ENV  = environ.get('FLASK_ENV')
     SESSION_TIMEOUT = environ.get('SESSION_TIMEOUT')
     TUNNEL_TIMEOUT = environ.get('TUNNEL_TIMEOUT')
     SSH_TIMEOUT = environ.get('SSH_TIMEOUT')
     LOG_SOURCE = environ.get('LOG_SOURCE')
+    CLEARDB_DATABASE_URL = environ.get('CLEARDB_DATABASE_URL')
 
     # Database
     SQLALCHEMY_ECHO = True
