@@ -1,14 +1,14 @@
 {
-  "name": "lnr-grip",
+  "name": "endothermic",
   "version": "1.0.0",
-  "description": "Grip tech quiz",
+  "description": "Blank hello world app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endothermal/lnr-grip.git"
+    "url": "git+https://github.com/catchloops/hello-world.git"
   },
   "keywords": [
     "lnr"
@@ -16,9 +16,9 @@
   "author": "Lnr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/endothermal/lnr-grip/issues"
+    "url": "https://github.com/catchloops/hello-world/issues"
   },
-  "homepage": "https://github.com/endothermal/lnr-grip#readme",
+  "homepage": "https://github.com/catchloops/hello-world#readme",
   "dependencies": {
     "less": "^4.1.1"
   },
