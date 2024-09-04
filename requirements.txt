@@ -24,7 +24,7 @@ mysqlclient==2.0.3
 packaging==20.9
 pluggy==0.13.1
 py==1.10.0
-PyMySQL==1.0.2
+PyMySQL==1.1.1
 PyMysqlDB==0.0.2
 pyparsing==2.4.7
 pytest==6.2.4
